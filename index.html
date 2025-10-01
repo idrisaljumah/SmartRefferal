@@ -1,32 +1,29 @@
-<!DOCTYPE html>\
-<html lang="en">\
-<head>\
-<meta charset="UTF-8" />\
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />\
-<meta name="description" content="Secure offline clinical referral generation with on-device AI" />\
-<meta name="theme-color" content="#2563eb" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Secure offline clinical referral generation with on-device AI" />
+  <meta name="theme-color" content="#2563eb" />
 
-```
-<!-- PWA Meta Tags -->
-<link rel="manifest" href="/manifest.json" />
-<link rel="icon" type="image/png" href="/favicon.ico" />
-<link rel="apple-touch-icon" href="/icon-192.png" />
+  <!-- PWA Meta Tags -->
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="icon" type="image/png" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/icon-192.png" />
 
-<!-- Security Headers -->
-<meta http-equiv="Content-Security-Policy" 
-      content="default-src 'self'; 
-               script-src 'self' 'wasm-unsafe-eval'; 
-               style-src 'self' 'unsafe-inline'; 
-               img-src 'self' data: blob:; 
-               connect-src 'self' https://models.example.com; 
-               worker-src 'self' blob:;" />
+  <!-- Security Headers -->
+  <meta http-equiv="Content-Security-Policy" 
+        content="default-src 'self'; 
+                 script-src 'self' 'wasm-unsafe-eval'; 
+                 style-src 'self' 'unsafe-inline'; 
+                 img-src 'self' data: blob:; 
+                 connect-src 'self' https://models.example.com; 
+                 worker-src 'self' blob:;" />
 
-<title>Clinical Referral Generator - Offline AI</title>
-```
-
-</head>\
-<body>\
-<div id="root"></div>\
-<script type="module" src="/src/main.tsx"></script>\
-</body>\
+  <title>Clinical Referral Generator - Offline AI</title>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
 </html>
